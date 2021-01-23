@@ -1,0 +1,37 @@
+body {
+  background-image: url("https://www.zombiesoftwares.com/blog/wp-content/uploads/2017/01/home-page-97309212.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.navbar {
+  display: flex;
+  width: 100%;
+  margin-left: 450px;
+  text-align: center;
+  list-style: none;
+}
+li {
+  padding: 1rem 2rem 1.15rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: #ebebeb;
+  min-width: 80px;
+  /* margin: auto; */
+}
+
+li:hover {
+  background-image: url("https://scottyzen.sirv.com/Images/v/button.png");
+  background-size: 100% 100%;
+  color: #27262c;
+  animation: spring 300ms ease-out;
+  text-shadow: 0 -1px 0 #358127;
+  font-weight: bold;
+}
+li:active {
+  transform: translateY(4px);
+}
+a {
+  text-decoration: none;
+  color: dodgerblue;
+  font-family: Courier, Monaco, monospace;
+}

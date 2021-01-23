@@ -1,0 +1,93 @@
+body {
+  background-color: rgb(92, 86, 86);
+}
+.navbar {
+  display: flex;
+  width: 100%;
+  margin-left: 450px;
+  text-align: center;
+  list-style: none;
+}
+li {
+  padding: 1rem 2rem 1.15rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: #ebebeb;
+  min-width: 80px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  /* margin: auto; */
+}
+
+li:hover {
+  background-image: url("https://scottyzen.sirv.com/Images/v/button.png");
+  background-size: 100% 100%;
+  color: #27262c;
+  animation: spring 300ms ease-out;
+  text-shadow: 0 -1px 0 #358127;
+  font-weight: bold;
+}
+li:active {
+  transform: translateY(4px);
+}
+a {
+  text-decoration: none;
+  color: dodgerblue;
+  font-family: Courier, Monaco, monospace;
+}
+.form {
+  width: 340px;
+  height: 440px;
+  background: #e6e6e6;
+  border-radius: 8px;
+  box-shadow: 0 0 40px -10px #000;
+  margin: calc(50vh - 220px) auto;
+  padding: 20px 30px;
+  max-width: calc(100vw - 40px);
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+}
+input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  background: none;
+  outline: none;
+  resize: none;
+  border: 0;
+  font-family: "Montserrat", sans-serif;
+  transition: all 0.3s;
+  border-bottom: 2px solid #bebed2;
+}
+button {
+  float: none;
+  padding: 8px 12px;
+  margin: 8px 0 0;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 10%;
+  background: 0;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s;
+
+  background: #2faa4d;
+}
+button:hover {
+  background: #f60404;
+  color: #fff;
+}
+span {
+  position: absolute;
+}
+h1 {
+  font-size: small;
+  font-family: fantasy;
+  color: rgb(77, 90, 104);
+}
+
+h2 {
+  font-size: x-large;
+  font-family: fantasy;
+  color: rgb(77, 90, 104);
+}
